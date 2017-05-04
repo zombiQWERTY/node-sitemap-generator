@@ -1,0 +1,48 @@
+{
+  "name": "node-sitemap-generator",
+  "version": "1.0.0",
+  "description": "Dynamic sitemap generator (from provided data)",
+  "main": "./index.js",
+  "homepage": "https://github.com/zombiQWERTY/node-sitemap-generator",
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zombiQWERTY/node-sitemap-generator"
+  },
+  "keywords": ["sitemap", "node-sitemap", "sitemap-generator", "robots", "sitemap.xml", "robots.txt"],
+  "bugs": {
+    "url": "https://github.com/zombiQWERTY/node-sitemap-generator/issues",
+    "email": "zombiqwerty@yandex.ru"
+  },
+  "author": {
+    "name": "Pavel Zinovev",
+    "email": "zombiqwerty@yandex.ru",
+    "url": "https://github.com/zombiQWERTY"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.11.6",
+    "babel-watch": "^2.0.2",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "env-test": "^1.0.0",
+    "mocha": "^3.1.0",
+  },
+  "scripts": {
+    "test": "mocha ./test --require=env-test --timeout=20000"
+  }
+}
